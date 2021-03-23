@@ -11,13 +11,14 @@
                 label="Quantidade" 
                 type="number" 
                 v-model.number="quantity"
+                :error="!hasFunds"
               />
               <v-btn 
                 class="green darken-3 white--text"
-                :disabled="quantity <= 0 || !Number.isInteger(quantity)"
+                :disabled="!hasFunds || quantity <= 0 || !Number.isInteger(quantity)"
                 @click="buyStock"
                >
-                Comprar
+                {{ hasFunds ? 'Comprar' : 'Insuficiente'}}
               </v-btn>
           </v-container>
       </v-card>
@@ -30,6 +31,14 @@ export default {
     data: () => ({
         quantity: 0,
     }),
+    computed: {
+        funds() {
+            return this.$store.getters.funds
+        },
+        hasFunds() {
+            return this.quantity * this.stock.price < this.funds
+        }
+    },
     methods: {
         buyStock() {
             const order = {

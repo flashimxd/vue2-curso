@@ -13,10 +13,11 @@
                 label="Quantidade" 
                 type="number" 
                 v-model.number="quantity"
+                :error="overQuantity || !Number.isInteger(quantity)"
               />
               <v-btn 
                 class="blue darken-3 white--text"
-                :disabled="quantity <= 0 || !Number.isInteger(quantity)"
+                :disabled="overQuantity || quantity <= 0 || !Number.isInteger(quantity)"
                 @click="sellStock"
                >
                 Vender
@@ -28,22 +29,27 @@
 
 <script>
 export default {
-    props:['stock'],
-    data: () => ({
-        quantity: 0,
-    }),
-    methods: {
-        sellStock() {
-            const order = {
-                stockId: this.stock.id,
-                stockPrice: this.stock.price,
-                quantity: this.quantity
-            }
-
-            this.$store.dispatch('sellStock', order)
-            this.quantity = 0
-        }
+  props:['stock'],
+  data: () => ({
+      quantity: 0,
+  }),
+  computed: {
+    overQuantity() {
+      return this.quantity > this.stock.quantity
     }
+  },
+  methods: {
+      sellStock() {
+          const order = {
+              stockId: this.stock.id,
+              stockPrice: this.stock.price,
+              quantity: this.quantity
+          }
+
+          this.$store.dispatch('sellStock', order)
+          this.quantity = 0
+      }
+  }
 }
 </script>
 
