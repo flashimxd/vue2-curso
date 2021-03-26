@@ -1,27 +1,458 @@
 <template>
-  <div>
-    <h1 class="display-3 font-weight-light mb-4">
-      Negocie e consulte suas Ações
-    </h1>
-    <v-sheet :elevation="6" class="pa-2 primary">
-      <v-icon class="white--text mr-3">
-        info
-      </v-icon>
-      <span class="headline white--text font-weight-light">
-        Você pode Salvar & Carregar os Dados
-      </span>
-    </v-sheet>
-    <v-sheet :elevation="6" class="pa-2 success darken-1 mt-3">
-      <v-icon class="white--text mr-3">
-        info
-      </v-icon>
-      <span class="headline white--text font-weight-light">
-        Clique em 'Finalizar Dia' para iniciar um novo dia!
-      </span>
-    </v-sheet>
-    <v-divider class="mr-4"></v-divider>
-    <p class="display-1"><strong>Seu Saldo:</strong>{{ funds }}</p>
-  </div>
+  <v-flex style="display: flex;">
+    <v-flex class="pr-3 pb-3" xs12 md6 lg4>
+      <v-card>
+          <v-card-title class="headline">OS Criada</v-card-title>
+          <v-divider></v-divider>
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+
+
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+      </v-card>
+    </v-flex>
+
+    <v-flex class="pr-3 pb-3" xs12 md6 lg4>
+      <v-card>
+          <v-card-title class="headline">OS em progresso</v-card-title>
+          <v-divider></v-divider>
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+
+
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+      </v-card>
+    </v-flex>
+
+    <v-flex class="pr-3 pb-3" xs12 md6 lg4>
+      <v-card>
+          <v-card-title class="headline">OS Concluídas</v-card-title>
+          <v-divider></v-divider>
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+
+
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+
+          <v-flex style="margin-inline: auto; padding: 1.2em;">
+            <v-card elevation="2" style="padding: 1.2em;">
+              <v-flex>
+                <v-card-title>OS: 43 DEVOP</v-card-title>
+                <v-card-text>
+                    <v-row
+                      align="center"
+                      class="mx-0"
+                    >
+                      Tipo de serviço: Instalação
+                    </v-row>
+                    <div class="grey--text">
+                      Data: 18/03/2021 - 22:00
+                    </div>
+                    <v-row>
+                      <div class="font-weight-normal">
+                        Cliente: Grupo Conor
+                      </div>
+                    </v-row>
+                </v-card-text>
+              </v-flex>
+            </v-card>
+          </v-flex>
+      </v-card>
+    </v-flex>
+  </v-flex>
 </template>
 
 <script>

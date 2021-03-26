@@ -1,35 +1,19 @@
 <template>
  <v-toolbar app>
-    <v-toolbar-title class="headline text-uppercasemr-4">
-        <span>Stock</span>
-        <span class="font-weight-light">Trader</span>
+    <v-toolbar-title class="header__logo-section">
+        <img src="../assets/logo-instala-small.png" />
     </v-toolbar-title>
     <v-toolbar-items>
-        <v-btn flat to="/">Início</v-btn>
-        <v-btn flat to="/portfolio">Portifólio</v-btn>
-        <v-btn flat to="/stocks">Ações</v-btn>
+        <v-btn flat to="/">Painel de OS</v-btn>
+        <v-btn flat to="/portfolio">Técnicos</v-btn>
+        <v-btn flat to="/stocks">Equipamentos</v-btn>
+         <v-btn flat to="/stocks">Cliente</v-btn>
     </v-toolbar-items>
 
     <v-spacer></v-spacer>
 
     <v-toolbar-items>
-        <v-btn flat>Finalizar Dia</v-btn>
-        <v-menu offset-y>
-            <v-btn flat slot="activator">Salvar & Carregar</v-btn>
-            <v-list>
-                <v-list-tile>
-                    <v-list-tile-title>Salvar Dados</v-list-tile-title>
-                </v-list-tile>
-                <v-list-tile>
-                    <v-list-tile-title>Carregar Dados</v-list-tile-title>
-                </v-list-tile>
-            </v-list>
-        </v-menu>
-        <v-layout align-center>
-            <span class="text-uppercase grey--text text--darken-2">
-                saldo: {{ funds }}
-            </span>
-        </v-layout>
+        <v-btn flat>Sair</v-btn>
     </v-toolbar-items>
  </v-toolbar>
 </template>
@@ -44,6 +28,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+    .header__logo-section {
+        margin-right: 2em;
+    }
 </style>
